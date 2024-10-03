@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_of_services",
+  "info": {
+    "singularName": "terms-of-service",
+    "pluralName": "terms-of-services",
+    "displayName": "Terms Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    },
+    "timeRead": {
+      "type": "integer",
+      "default": 2
+    }
+  }
+}

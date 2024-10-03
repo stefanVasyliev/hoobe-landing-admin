@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_olicies",
+  "info": {
+    "singularName": "privacy-olicy",
+    "pluralName": "privacy-olicies",
+    "displayName": "Privacy Policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "timeRead": {
+      "type": "integer",
+      "default": 2
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}
